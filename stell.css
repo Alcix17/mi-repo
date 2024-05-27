@@ -1,0 +1,127 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F3f3f3;
+}
+.header{
+    background-color:#0cc0df;
+    display: flex;
+    justify-content: space-around;
+}
+
+.TITULO{
+    margin: 14px 8px;
+    text-align: center;
+    font-weight: 700;
+    color: #fff;
+    font-size: 32px;
+}
+.header ul{
+    display: flex;
+    padding: 0;
+}
+.header a, .header li{
+    font-weight: 700;
+    color: #fff;
+    margin: 10px 20px;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* Bar  nav */
+.search-bar {
+    align-items: center;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.search-bar input[type="text"] {
+    box-shadow: 0 4px 12px #0006;
+    border: none;
+    padding: 10px;
+    width: 500px;
+    font-size: 16px;
+}
+
+.search-bar button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+/* end */
+
+.nov{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 77px;
+    margin-bottom: 70px;
+    color: #5271ff;
+}
+
+p{
+    font-size: 28px;
+    display: inline;
+}
+.cards{
+    box-sizing: border-box;
+    border-top: #333 solid 2px;
+    display: flex;
+    width: 100%;
+    padding: 50px;
+    padding-top: 10px;
+}
+
+.cards .card{
+    background-color: rgb(0, 144, 255);
+    color: aliceblue;
+    width: 300px;
+    height: 220px;
+    border-radius: 10px;
+    padding: 30px;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.3s ease;
+    box-shadow: -3px 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.cards .card a{
+    color: yellow;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.cards .card a:hover{
+    color: lightgoldenrodyellow;
+}
+
+.cards .card .header{
+    flex:1;
+}
+.cards .card:hover{
+    margin-right: 40px;
+    transform: rotate(3deg) translateY(-10px);
+    cursor: pointer;
+}
+
+.cards .card .header .date {
+    padding: 10px 0;
+}
+
+.cards .card .header .title {
+    font-size: 28px;
+}
+
+.cards .card[class*="element"]{
+    margin-left: 20px;
+} 
+
+.element1:hover,.element2{
+    margin-left: -130px;
+}
